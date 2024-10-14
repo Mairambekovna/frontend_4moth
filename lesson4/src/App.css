@@ -1,0 +1,39 @@
+/* Основные стили для body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Стили для контейнера главной страницы */
+.main-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6f7ff;
+}
+
+/* Стили для сообщения на главной странице */
+.main-page-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007acc;
+}
+
+/* Стили для контейнера страницы ошибки */
+.error-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffcccc;
+}
+
+/* Стили для сообщения на странице ошибки */
+.error-page-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #cc0000;
+}
